@@ -21,7 +21,7 @@ Após esses comandos a aplicação já estará rodando no [localhost](http://loc
 
 ## Postman
 
-Ao utilizar o Postman é possível utilizar o [arquivo json](../sanctum-api.postman_collection.json) para importar as configurações das rotas e dados. Para testar as rotas: Create, Update e Delete será necessário seguir os seguintes passos:
+Ao utilizar o Postman é possível utilizar o [arquivo json](../../sanctum-api.postman_collection.json) para importar as configurações das rotas e dados. Para testar as rotas: Create, Update e Delete será necessário seguir os seguintes passos:
 
 1. Criar um novo usuário pela rota [register](http://localhost:8000/api/register)
 2. Login com o usuário criado pela rota [login](http://localhost:8000/api/login)
