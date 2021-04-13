@@ -18,3 +18,11 @@ Após baixar o projeto será necessário executar alguns comandos para poder exe
 6. php artisan serve (inicializar a apliação)
 
 Após esses comandos a aplicação já estará rodando no [localhost](http://localhost:8000). Como essa aplicação trata apenas a Api será necessário alguma ferramenta que consiga lidar com as requições http. Nos testes foi o utlizado o [Postman](https://www.postman.com/downloads/).
+
+## Postman
+
+Ao utilizar o Postman é possível utilizar o [arquivo json](../sanctum-api.postman_collection.json) para importar as configurações das rotas e dados. Para testar as rotas: Create, Update e Delete será necessário seguir os seguintes passos:
+
+1. Criar um novo usuário pela rota [register](http://localhost:8000/api/register)
+2. Login com o usuário criado pela rota [login](http://localhost:8000/api/login)
+3. Alterar o _Bearer Token_ pelo fornecido no Login
